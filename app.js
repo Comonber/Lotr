@@ -31,7 +31,7 @@ function Jugador(nombre){
         }
         else {
             jugadorObjetivo.pv = 0; 
-            console.error(jugadorObjetivo.nombre + " murio!!");
+            console.error(jugadorObjetivo.nombre + " murio!!! ");
         }
 
         this.estado(jugadorObjetivo);
